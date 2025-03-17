@@ -2,19 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package main;
-
-import core.Person;
+package core;
 
 /**
  *
- * @author Autologon
+ * @author samaria
  */
-public class Main {
- 
-    public static void main(String[] args) {
-         Person persona = new Person("pablo",23,1111111);
-          System.out.println(persona);
+public class Person {
+    String name;
+    int age;
+    int id;
+
+    public Person(String name, int age, int id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
     }
+
+
     
 }
